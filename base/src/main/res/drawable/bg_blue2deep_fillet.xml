@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--按钮不可点击时-->
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/c_button_enable" />
+            <corners android:radius="@dimen/btn_corners_radius" />
+        </shape>
+    </item>
+
+    <!--按钮可以点击，并且没有按压下去时-->
+    <item android:state_enabled="true" android:state_pressed="false">
+        <shape>
+            <solid android:color="@color/c_main_blue" />
+            <corners android:radius="@dimen/btn_corners_radius" />
+        </shape>
+    </item>
+
+    <!--按钮可以点击，并且已经按压下去时-->
+    <item android:state_enabled="true" android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/c_button_enable" />
+            <corners android:radius="@dimen/btn_corners_radius" />
+        </shape>
+    </item>
+
+</selector>

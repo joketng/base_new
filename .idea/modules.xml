@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MPChartLib/MPChartLib.iml" filepath="$PROJECT_DIR$/MPChartLib/MPChartLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baidu-location/baidu-location.iml" filepath="$PROJECT_DIR$/baidu-location/baidu-location.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base.iml" filepath="$PROJECT_DIR$/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/base-base.iml" filepath="$PROJECT_DIR$/base/base-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db-helper/db-helper.iml" filepath="$PROJECT_DIR$/db-helper/db-helper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/picture_chose/picture_chose.iml" filepath="$PROJECT_DIR$/picture_chose/picture_chose.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pull-to-refresh/pull-to-refresh.iml" filepath="$PROJECT_DIR$/pull-to-refresh/pull-to-refresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/remote-request/remote-request.iml" filepath="$PROJECT_DIR$/remote-request/remote-request.iml" />
+    </modules>
+  </component>
+</project>

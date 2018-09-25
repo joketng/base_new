@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/alert_window_stroke"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_alert_dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"
+            android:text="@string/dlg_title_note"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_alert_dialog_content"
+            style="@style/CustomAlertDialogText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:minHeight="50dp"
+            android:text="@string/dlg_title_note" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/c_divider" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/tv_alert_dialog_only_sure"
+            style="@style/alert_dialog_click_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/sure" />
+
+    </FrameLayout>
+
+</LinearLayout>

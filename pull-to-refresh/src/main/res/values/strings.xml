@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">pull-to-refresh</string>
+
+    <string name="is_pull_down_load">上拉加载</string>
+    <string name="is_pull_load_more">释放以加载</string>
+    <string name="is_loading">努力加载中&#8230;</string>
+    <string name="is_refreshing">努力刷新中&#8230;</string>
+    <string name="loading_success">加载成功</string>
+    <string name="is_load_fail">加载失败</string>
+    <string name="is_loaded_all">已加载全部</string>
+    <string name="is_pull_down_refresh">下拉刷新</string>
+    <string name="is_refresh_start">释放以刷新</string>
+    <string name="refresh_success">刷新成功</string>
+</resources>

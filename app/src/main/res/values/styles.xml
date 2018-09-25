@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/c_main_text</item>
+        <item name="colorPrimaryDark">@color/c_main_orange</item>
+        <item name="colorAccent">@color/c_main_orange</item>
+    </style>
+
+    <style name="popupWindowAnimationScale">
+        <item name="android:windowEnterAnimation">@anim/pop_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/pop_scale_out</item>
+    </style>
+    <style name="submit_button">
+        <item name="android:text">提交</item>
+        <item name="android:textColor">@color/c_white</item>
+        <item name="android:background">@drawable/shape_submit_yellow</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+
+
+
+</resources>

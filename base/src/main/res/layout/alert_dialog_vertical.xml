@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/alert_window_stroke"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="通知新动态"
+                android:textSize="15sp"
+                android:textColor="@color/c_light_gray" />
+
+            <com.jointem.base.view.tooglebutton.ToggleButton
+                xmlns:toggle="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/tb_dialog_push_switch"
+                android:layout_width="50dp"
+                toggle:onColor="@color/c_light_green"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                toggle:offColor="@color/c_main_white_bg"
+                toggle:spotColor="@color/c_main_white_bg"
+                toggle:offBorderColor="@color/c_secondary_text_2"
+                android:layout_height="25dp"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/c_divider" />
+
+        <TextView
+            android:id="@+id/tv_dialog_follow_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="取消关注"
+            android:textColor="@color/c_gray"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/c_divider" />
+
+        <TextView
+            android:id="@+id/tv_dialog_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/close"
+            android:textColor="@color/c_light_gray"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>

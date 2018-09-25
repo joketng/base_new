@@ -1,0 +1,50 @@
+<resources>
+    <!-- 公共 -->
+    <string name="content_description">hgp img</string>
+    <string name="edit">编辑</string>
+    <string name="add">添加</string>
+    <string name="delete">删除</string>
+    <string name="move">移除</string>
+    <string name="save">保存</string>
+    <string name="finish">完成</string>
+    <string name="setting">设置</string>
+    <string name="more">更多</string>
+    <string name="exit">退出</string>
+    <string name="dlg_title_note">提示</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="back">返回</string>
+
+    <string name="loading">加载中&#8230;</string>
+    <string name="close">关闭</string>
+    <string name="pmt_exit_app">确定要退出吗？</string>
+    <string name="refresh_no_network">网络连接失败,请检查您的网络</string>
+    <string name="no_network">网络连接失败,请检查您的网络</string>
+    <string name="network_too_bad">网络状况不佳，请检查您的网络</string>
+    <string name="init_data_fail">初始化数据失败</string>
+    <string name="load_fail_for_net_bad">网络不给力，刷新失败</string>
+    <string name="net_ex_pmt">当前网络不可用，请检查你的网络设置</string>
+    <string name="nu_set_net_conn">未设置网络连接</string>
+    <string name="net_conn_success">网络连接成功</string>
+    <string name="pmt_clear_cache">已清除缓存</string>
+    <string name="list_data_empty">暂时没有相关数据</string>
+    <string name="pmt_no_search_history">暂时没有搜索记录</string>
+    <string name="pmt_nearby_empty_data">没有相关站点</string>
+    <string name="pmt_link_exception">呀！链接异常</string>
+    <string name="fab_scrolling_view_behavior">com.jointem.hgp.view.FabBehavior</string>
+    <string name="internal_link_failed">页面访问不了了，我们会尽快处理的哦！</string>
+    <string name="external_link_failed">第三方加载失败，请尝试刷新</string>
+    <string name="switch_city">切换定位城市：%1$s</string>
+    <string name="no_map_application">请先下载安装第三方地图导航功能</string>
+
+    <!--权限要求-->
+    <string name="permission_titile">权限要求</string>
+    <string name="permission_content">需要以下权限才能正常运行:手机信息(IMEI)，定位</string>
+    <string name="permission_custom_content">需要以下权限才能正常运行：</string>
+    <string name="permission_custom_content_format">需要以下权限才能正常运行：%1$s</string>
+    <string name="permission_setting">设置</string>
+    <string name="permission_exit_application">退出应用</string>
+    <string name="location_fail_no_permission">应用没有获取手机位置的权限，请在设置中将此权限开启</string>
+    <string name="title_activity_t">TActivity</string>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:background="@color/c_light_red"
+    android:id="@+id/ll_net_off"
+    android:gravity="center"
+    android:visibility="gone"
+    android:orientation="horizontal"
+    android:paddingBottom="6dp"
+    android:paddingTop="6dp" >
+
+    <ImageView
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/content_description"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_ex_pmt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/net_ex_pmt"
+        android:textColor="@color/c_secondary_text"
+        android:textSize="14sp" />
+
+</LinearLayout>

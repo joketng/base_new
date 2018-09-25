@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--好公仆文档色值,优先使用/////////////////////////////////////////-->
+    <!--主蓝色，按钮可点击-->
+    <color name="c_main_blue">#0164a6</color>
+    <!--黑色，文字主色，两个皆可-->
+    <color name="c_main_text">#444444</color>
+    <color name="c_main_text2">@color/c_secondary_text_2</color>
+    <!--<color name="c_main_text2">#6f6f6f</color>-->
+    <!--次要文字-->
+    <color name="c_secondary_text">#88888d</color>
+    <!--单位次要文字（时间日期，距离）-->
+    <color name="c_secondary_text_2">#9b9b9b</color>
+
+    <!--分割线，白-->
+    <color name="c_divider">#F7F7F7</color>
+    <!--分割条，白-->
+    <color name="c_divider_block">#f5f5f9</color>
+    <!--背景色，白-->
+    <color name="c_main_white_bg">#ffffff</color>
+
+    <color name="c_main_black">#a0000000</color>
+    <color name="font_black_6">#e0e0e0</color>
+
+    <!--按钮不可点击-->
+    <color name="c_button_enable">#5697c3</color>
+    <!--水红色-->
+    <color name="c_light_red">#ffe0e0</color>
+    <!--淡蓝色-->
+    <color name="c_light_blue">#00aceb</color>
+
+    <!--淡黄色-->
+    <color name="c_light_yellow">#ffe8b2</color>
+    <color name="c_base_orange">#00d463</color>
+
+    <!--绿色-->
+    <color name="c_light_green">#4aed91</color>
+    <!--浅灰色-->
+    <color name="c_light_gray">#333333</color>
+    <!--灰色-->
+    <color name="c_gray">#393a3e</color>
+    <!--///////////////////带有透明的颜色/////////////////-->
+    <!--透明色-->
+    <color name="c_transparent">#00000000</color>
+    <!--toast_bg-->
+    <color name="c_toast_bg">#a0000000</color>
+
+    <!-- 灰色 摘要注释，搜索页主体字 -->
+    <color name="gray">#666666</color>
+
+</resources>

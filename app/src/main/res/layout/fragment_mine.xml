@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bounds="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_divider_block"
+    android:orientation="vertical">
+
+    <include layout="@layout/v_simple_top_bar" />
+
+    <LinearLayout
+        android:id="@+id/ll_user_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/bg_user_info"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/imv_avatar"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="40dp"
+            bounds:srcCompat="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_padding"
+            android:text="登录/注册"
+            android:textColor="@color/c_main_white_bg" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_test1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/c_white"
+        android:drawableRight="@mipmap/ic_list_item_next"
+        android:padding="15dp"
+        android:text="一"
+        android:textColor="@color/c_main_text" />
+
+    <TextView
+        android:id="@+id/tv_test2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/c_white"
+        android:drawableRight="@mipmap/ic_list_item_next"
+        android:padding="15dp"
+        android:text="二"
+        android:textColor="@color/c_main_text" />
+
+    <TextView
+        android:id="@+id/tv_test3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/c_white"
+        android:drawableRight="@mipmap/ic_list_item_next"
+        android:padding="15dp"
+        android:text="三"
+        android:textColor="@color/c_main_text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/c_white"
+        android:drawableRight="@mipmap/ic_list_item_next"
+        android:padding="15dp"
+        android:text="四"
+        android:textColor="@color/c_main_text" />
+
+    <TextView
+        android:id="@+id/tv_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/c_white"
+        android:drawableRight="@mipmap/ic_list_item_next"
+        android:padding="15dp"
+        android:text="五"
+        android:textColor="@color/c_main_text" />
+
+</LinearLayout>

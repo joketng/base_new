@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/c_main_white_bg"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:ems="3"
+        android:text="@string/mobile_number"
+        android:textColor="@color/c_main_text2"
+        android:textSize="@dimen/site_title_text_size" />
+
+    <com.jointem.base.view.ClearEditText
+        android:id="@+id/et_phone"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:cursorVisible="false"
+        android:drawableEnd="@mipmap/ic_clear_account"
+        android:drawableRight="@mipmap/ic_clear_account"
+        android:hint="@string/prompt_mobile"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:maxLines="1"
+        android:textCursorDrawable="@drawable/ic_base_et_cursor"
+        android:textSize="15sp" />
+
+    <CheckBox
+        android:id="@+id/cb_history_account"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/default_padding"
+        android:layout_marginStart="@dimen/default_padding"
+        android:button="@drawable/ic_user_account_up_down"
+        android:paddingLeft="@dimen/default_padding"
+        android:paddingRight="@dimen/default_padding" />
+</LinearLayout>

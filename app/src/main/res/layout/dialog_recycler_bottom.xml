@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/c_white">
+
+    <com.joketng.base.view.DialogRecycleView
+        android:id="@+id/rv_dialog_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <include layout="@layout/divider_bar_7dp"/>
+
+    <TextView
+        android:id="@+id/tv_dialog_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="取消"
+        android:gravity="center"
+        android:textColor="@color/c_main_text"
+        />
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SwipeBackLayout">
+        <item name="edge_size">20dp</item>
+        <item name="shadow_left">@mipmap/shadow_left</item>
+        <item name="shadow_right">@mipmap/shadow_right</item>
+        <item name="shadow_bottom">@mipmap/shadow_bottom</item>
+    </style>
+
+    <style name="CustomAlertDialogText">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/c_light_gray</item>
+    </style>
+
+    <style name="CustomAlertDialogText.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/c_light_gray</item>
+    </style>
+
+    <!--自定义dialog中确定和取消字样-->
+    <style name="alert_dialog_click_text_style">
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/c_base_orange</item>
+    </style>
+
+    <!--DownPopupWindow-->
+    <style name="popupWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/popup_window_dropdown_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_window_dropdown_out</item>
+    </style>
+    <style name="dialog1" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!--边框-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--半透明-->
+        <item name="android:windowNoTitle">true</item>
+        <!--无标题-->
+        <item name="android:windowBackground">@color/c_transparent</item>
+        <!--&lt;!&ndash;背景透明&ndash;&gt;-->
+        <!--<item name="android:backgroundDimEnabled">true</item>-->
+        <!--&lt;!&ndash;模糊&ndash;&gt;-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--activity不变暗-->
+    </style>
+
+    <style name="popupWindowAnimationBottom">
+        <item name="android:windowEnterAnimation">@anim/pop_enter</item>
+        <item name="android:windowExitAnimation">@anim/pop_exit</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!--边框-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--半透明-->
+        <item name="android:windowNoTitle">true</item>
+        <!--无标题-->
+        <item name="android:windowBackground">@color/c_transparent</item>
+        <!--&lt;!&ndash;背景透明&ndash;&gt;-->
+        <!--<item name="android:backgroundDimEnabled">true</item>-->
+        <!--&lt;!&ndash;模糊&ndash;&gt;-->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!--activity不变暗-->
+    </style>
+
+    <!--<style name="AppTheme.NoActionBar">-->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+    <!--</style>-->
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

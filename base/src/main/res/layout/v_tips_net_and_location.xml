@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/c_light_red"
+        android:id="@+id/ll_net_off"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="6dp"
+        android:paddingTop="6dp" >
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:src="@mipmap/ic_ex_pmt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="@string/net_ex_pmt"
+            android:textColor="@color/c_gray"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_server_guide_switch_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/c_light_yellow"
+        android:padding="10dp"
+        android:text="@string/switch_city"
+        android:textColor="@color/c_main_text2" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/ll_relocation"
+        android:background="@color/c_light_yellow"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_relocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="定位失败，点击重新定位"
+            android:textColor="@color/c_main_text2" />
+        <ImageView
+            android:id="@+id/iv_relocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"/>
+    </LinearLayout>
+</LinearLayout>

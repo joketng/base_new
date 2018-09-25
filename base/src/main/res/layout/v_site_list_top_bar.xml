@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_from_search"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/top_bar_height"
+    android:background="@color/c_gray"
+    android:gravity="center_vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_site_list_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/imv_site_list_back"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/content_description"
+            android:paddingLeft="12dp"
+            android:paddingRight="2dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_base_back"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_site_list_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@id/imv_site_list_back"
+            android:text="@string/back"
+            android:textColor="@color/c_main_white_bg"
+            android:textSize="@dimen/top_back_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_operation"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:gravity="end"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_operation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/more"
+            android:textColor="@color/c_main_white_bg"
+            android:textSize="16sp"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_search_enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="6dp"
+        android:layout_toLeftOf="@id/rl_operation"
+        android:layout_toRightOf="@id/rl_site_list_back"
+        android:background="@drawable/search_box_white"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/imv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/content_description"
+            android:src="@mipmap/ic_search_gray_small"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_search_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@null"
+            android:singleLine="true"
+            android:text="搜索资讯"
+            android:textColor="@color/c_secondary_text_2"
+            android:textSize="@dimen/org_selete_textsize"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/c_divider" />
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_from_other"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/top_bar_height"
+    android:background="@color/c_light_gray"
+    android:gravity="center_vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/imv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/content_description"
+            android:paddingEnd="2dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="2dp"
+            android:paddingStart="12dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_base_back"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_toEndOf="@id/imv_back"
+            android:layout_toRightOf="@id/imv_back"
+            android:gravity="center_vertical"
+            android:text="@string/back"
+            android:textColor="@color/c_main_white_bg"
+            android:textSize="@dimen/top_back_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/rl_back"
+        android:background="@drawable/search_box_white"
+        android:gravity="clip_vertical">
+
+        <LinearLayout
+            android:id="@+id/tv_topBar_search"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:contentDescription="@string/content_description"
+                android:src="@mipmap/ic_search_gray_small" />
+        </LinearLayout>
+
+        <com.jointem.base.view.ClearEditText
+            android:id="@+id/et_search_key"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_topBar_search"
+            android:background="@null"
+            android:cursorVisible="true"
+            android:drawableRight="@mipmap/ic_clear"
+            android:hint="中文/拼音/首字母"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="3dp"
+            android:paddingRight="2dp"
+            android:singleLine="true"
+            android:textColor="@color/c_light_gray"
+            android:textColorHint="@color/c_secondary_text_2"
+            android:textCursorDrawable="@mipmap/et_cursor_line"
+            android:textSize="@dimen/org_selete_textsize"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</RelativeLayout>

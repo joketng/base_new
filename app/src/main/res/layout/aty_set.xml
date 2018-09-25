@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_divider_block"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/v_base_top_bar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/c_white"
+        android:drawableRight="@mipmap/ic_list_item_next"
+        android:padding="15dp"
+        android:text="个人信息"
+        android:textColor="@color/c_main_text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/c_white"
+        android:drawableRight="@mipmap/ic_list_item_next"
+        android:padding="15dp"
+        android:text="登录密码"
+        android:textColor="@color/c_main_text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/c_white"
+        android:drawableRight="@mipmap/ic_list_item_next"
+        android:padding="15dp"
+        android:text="分享App"
+        android:textColor="@color/c_main_text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/c_white"
+        android:drawableRight="@mipmap/ic_list_item_next"
+        android:padding="15dp"
+        android:text="关于App"
+        android:textColor="@color/c_main_text" />
+
+    <include layout="@layout/v_user_button_login" />
+
+</LinearLayout>

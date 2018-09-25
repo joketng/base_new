@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_empty_view_net"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_main_white_bg"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:id="@+id/ll_refresh_net"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_no_net_work" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:text="@string/refresh_no_network"
+            android:textColor="@color/c_main_text"
+            android:textSize="@dimen/site_date_text_size" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:text="点击刷新网络"
+            android:textColor="@color/c_main_blue"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<resources>
+
+    <dimen name="default_padding">8dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="org_selete_textsize">13sp</dimen>
+    <dimen name="site_title_text_size">15sp</dimen>
+    <dimen name="site_date_text_size">13sp</dimen>
+    <!--ToolBar 返回文字大小-->
+    <dimen name="top_back_size">15sp</dimen>
+    <!--分割条高度-->
+    <dimen name="divider_space_height">10dp</dimen>
+    <!--分割线高度-->
+    <dimen name="divider_line_height">0.3dp</dimen>
+    <!--输入框光标的宽度-->
+    <dimen name="editText_cursor_width">1.5dp</dimen>
+    <!--顶部标题栏高度-->
+    <dimen name="top_bar_height">43dp</dimen>
+    <!--页面左右间距-->
+    <dimen name="page_margin_left">10dp</dimen>
+    <dimen name="page_margin_right">10dp</dimen>
+
+    <!--标题栏文字大小-->
+    <dimen name="top_title_size">17sp</dimen>
+    <!--按钮的圆角-->
+    <dimen name="btn_corners_radius">3dp</dimen>
+
+    <!--超大字号-->
+    <dimen name="extra_large_text_size_24">24sp</dimen>
+    <!--大字号-->
+    <dimen name="big_text_size_20">20sp</dimen>
+    <!-- 强调文字字体大小 -->
+    <dimen name="emphasize_text_size_18">18sp</dimen>
+    <!-- 主要文字字体大小 -->
+    <dimen name="main_text_size_16">16sp</dimen>
+    <!-- 次要文字字体大小 -->
+    <dimen name="major_text_size_15">15sp</dimen>
+    <!-- 辅助文字字体大小 -->
+    <dimen name="minor_text_size_14">14sp</dimen>
+    <!-- 辅助文字字体大小 -->
+    <dimen name="minor_text_size_13">13sp</dimen>
+
+</resources>

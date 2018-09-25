@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="outbody_bottom_color">#f6f6f6</color>
+    <!--底部未选中时的字体颜色-->
+    <color name="bottom_normal_color">#abadbb</color>
+    <color name="c_main_orange">#00d463</color>
+    <color name="c_main_orange_light">#00d463</color>
+    <color name="c_not_in_car">#F4F4F4</color>
+    <!-- toast提示文字色值 -->
+    <color name="c_toast_text">#ffffff</color>
+    <!-- 白色 -->
+    <color name="c_white">#ffffff</color>
+
+    <color name="bg_wallet">#2C2F38</color>
+
+
+</resources>

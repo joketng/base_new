@@ -1,0 +1,1 @@
+include ':app', ':remote-request', ':base', ':db-helper', ':pull-to-refresh', ':baidu-location',':picture_chose',':MPChartLib'

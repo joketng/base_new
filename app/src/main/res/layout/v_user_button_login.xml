@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="12dp"
+        android:background="@drawable/bg_blue2deep_fillet"
+        android:enabled="false"
+        android:textSize="16sp"
+        android:text="@string/login"
+        android:textColor="@color/c_main_white_bg" />
+
+</merge>
